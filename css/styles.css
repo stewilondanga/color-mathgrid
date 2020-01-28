@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,77 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+hmtl, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #7acc97;
+}
+
+.container {
+  width: 512px;
+  height: 512px;
+  margin: 35px auto;
+  counter-reset: horizontal, vertical;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 0 -2px;
+  outline: 1px solid #ccc;
+  border-radius: 0;
+  background: #fff;
+}
+input[type="checkbox"]:before, input[type="checkbox"]:after {
+  position: absolute;
+  top: -16px;
+  left: 3px;
+  color: #fff;
+  font-size: 10px;
+}
+input[type="checkbox"]:nth-child(n+1):nth-child(-n+32) {
+  counter-increment: horizontal;
+  counter-reset: vertical 1;
+}
+input[type="checkbox"]:nth-child(n+1):nth-child(-n+32):before {
+  content: counter(horizontal);
+}
+input[type="checkbox"]:nth-child(32n+1) {
+  counter-increment: vertical;
+}
+input[type="checkbox"]:nth-child(32n+1):after {
+  top: 2px;
+  left: -18px;
+  width: 16px;
+  content: counter(vertical);
+  text-align: center;
+}
+
+.colors {
+  margin: 25px auto 0;
+  text-align: center;
+}
+.colors h3 {
+  margin: 0;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.7;
+  font-family: sans-serif;
 }
 
 .containers {
