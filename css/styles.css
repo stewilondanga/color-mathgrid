@@ -55,11 +55,12 @@ input[type="checkbox"]:before, input[type="checkbox"]:after {
   font-size: 10px;
 }
 
-/*input[type="checkbox"]:nth-child(n+1):nth-child(-n+32) {
+input[type="checkbox"]:nth-child(n+1):nth-child(-n+32) {
   counter-increment: horizontal;
   counter-reset: vertical 1;
 }
-input[type="checkbox"]:nth-child(n+1):nth-child(-n+32):before {
+
+/*input[type="checkbox"]:nth-child(n+1):nth-child(-n+32):before {
   content: counter(horizontal);
 }
 input[type="checkbox"]:nth-child(32n+1) {
