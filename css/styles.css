@@ -76,11 +76,12 @@ input[type="checkbox"]:nth-child(32n+1):after {
   text-align: center;
 }
 
-/*.colors {
+.colors {
   margin: 25px auto 0;
   text-align: center;
 }
-.colors h3 {
+
+/*.colors h3 {
   margin: 0;
   color: #fff;
   text-transform: uppercase;
