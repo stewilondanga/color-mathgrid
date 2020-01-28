@@ -34,7 +34,7 @@ body {
   counter-reset: horizontal, vertical;
 }
 
-/*input[type="checkbox"] {
+input[type="checkbox"] {
   -webkit-appearance: none;
   appearance: none;
   position: relative;
@@ -46,7 +46,8 @@ body {
   border-radius: 0;
   background: #fff;
 }
-input[type="checkbox"]:before, input[type="checkbox"]:after {
+
+/*input[type="checkbox"]:before, input[type="checkbox"]:after {
   position: absolute;
   top: -16px;
   left: 3px;
