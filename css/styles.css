@@ -47,14 +47,15 @@ input[type="checkbox"] {
   background: #fff;
 }
 
-/*input[type="checkbox"]:before, input[type="checkbox"]:after {
+input[type="checkbox"]:before, input[type="checkbox"]:after {
   position: absolute;
   top: -16px;
   left: 3px;
   color: #fff;
   font-size: 10px;
 }
-input[type="checkbox"]:nth-child(n+1):nth-child(-n+32) {
+
+/*input[type="checkbox"]:nth-child(n+1):nth-child(-n+32) {
   counter-increment: horizontal;
   counter-reset: vertical 1;
 }
