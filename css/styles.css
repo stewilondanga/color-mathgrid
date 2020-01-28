@@ -68,7 +68,7 @@ input[type="checkbox"]:nth-child(32n+1) {
   counter-increment: vertical;
 }
 
-/*input[type="checkbox"]:nth-child(32n+1):after {
+input[type="checkbox"]:nth-child(32n+1):after {
   top: 2px;
   left: -18px;
   width: 16px;
@@ -76,7 +76,7 @@ input[type="checkbox"]:nth-child(32n+1) {
   text-align: center;
 }
 
-.colors {
+/*.colors {
   margin: 25px auto 0;
   text-align: center;
 }
