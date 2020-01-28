@@ -60,10 +60,11 @@ input[type="checkbox"]:nth-child(n+1):nth-child(-n+32) {
   counter-reset: vertical 1;
 }
 
-/*input[type="checkbox"]:nth-child(n+1):nth-child(-n+32):before {
+input[type="checkbox"]:nth-child(n+1):nth-child(-n+32):before {
   content: counter(horizontal);
 }
-input[type="checkbox"]:nth-child(32n+1) {
+
+/*input[type="checkbox"]:nth-child(32n+1) {
   counter-increment: vertical;
 }
 input[type="checkbox"]:nth-child(32n+1):after {
